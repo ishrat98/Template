@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
   }
+  body{
+
+    background: #ffffff;
+
+}
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header{
+    background: #ffffff;
+}
+
+.header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+
+
+
+  .logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+  }
+
+  
+  .main-menu-area {
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+  }
+  
+
