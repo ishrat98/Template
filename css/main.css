@@ -17,6 +17,10 @@ body {
     font-weight: 300;
 }
 
+.font-worksans {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .width-33 {
     max-width: 30.33333%;
 }
@@ -55,8 +59,27 @@ body {
 }
 
 .section-padding{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
+}
+
+.centre-padding{
+    padding-top: 65px;
+    
+}
+
+.text-middle {
+    text-align: center;
+    
+}
+
+.box .material-icons{
+
+    height:1rem;
+    font-size: 3.75em;
+    padding-left: 170px ;
+    padding-bottom: 70px;
+
 }
 
 .header::after {
@@ -74,13 +97,15 @@ body {
 .main-menu-area {
     float: right;
     list-style: none;
-    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
 }
 
 .hp-welcome-area {
     text-align: center;
     background: #c5c2c2;
 }
+
 .box{
     position: relative;
     width: 100%;
